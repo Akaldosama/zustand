@@ -1,0 +1,25 @@
+.section{
+  display: flex;
+}
+aside{
+  background-color: rgb(37, 223, 223);
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  width: 230px;
+}
+aside ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 100px;
+}
+aside ul .post{
+  text-decoration: none;
+  color: white;
+}

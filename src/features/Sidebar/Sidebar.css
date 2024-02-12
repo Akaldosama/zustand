@@ -1,0 +1,19 @@
+aside{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: hsl(210, 100%, 50%);
+}
+aside ul{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: 30%;
+}
+.links{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    width: 150px;
+}
